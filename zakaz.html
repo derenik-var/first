@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-row">
+
+                <a class="header-logo" href="index.html"><img class="logo" src="img/лого.png" width="150px"></a>
+                    <nav class="header-nav">
+                        <ul>
+                           
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Где мы</a></li>        
+                            <li><a href="zakaz.html">Заказать</a></li>                     
+                        </ul>
+                    </nav>
+                <div class="header-box">
+                    
+                    
+                  <p><a href="#" class="box" style="color: green;">+7 (968) 051-26-20</a></p>
+                  <p><a href="#" class="box" style="color: green;">+7 (968) 051-26-20</a></p>
+                
+                
+                </div>
+           
+            </div>
+        </div>
+    </header>
+
+    <div class="zayavka">
+        
+<div class="form">
+<form action="sendmail.php" id="form" class="form__body">
+    <h1 class="form_title">Решим проблему с выбором пиломатериалов, подберем оптимальный вариант для строительства по цене и качеству</h1>
+    <div class="form_item">
+        <label for="FormName" class="form_label">ФИО*:</label>
+        <input id="FormName" type="text" name="name" class="Form_input _req">
+    </div>
+
+
+    <div class="form_item">
+        <label for="Form" class="form_label">Номер телефона*:</label>
+        <input id="FormTel" type="tel" name="tel" class="Form_input _req _tel">
+    </div>
+<div class="row-container">
+
+    <div class="form_item">
+        <div class="form_label">Пиломатериалы:</div>
+        <select name="choose" class="select">
+            <option value="Доска обрезная" selected>Доска обрезная</option>
+            <option value="Брус обрезной" selected>Брус обрезной</option>
+            <option value="Доска строганная" selected>Доска строганная</option>
+            <option value="Брус строганный" selected>Брус строганный</option>
+            <option value="Доска обрезная осина" selected>Доска обрезная осина</option>
+            <option value="Имитация бруса" selected>Имитация бруса</option>
+            <option value="Половая доска" selected>Половая доска</option>
+            <option value="Евровагонка" selected>Евровагонка</option>
+            <option value="Фанера" selected>Фанера</option>
+            <option value="OSB" selected>OSB</option>
+        </select>
+    </div>
+    
+    <div class="form_item">
+        <div class="form_label">Размеры:</div>
+        <select name="choose" class="select">
+            <option value="50×200×6000" selected>50×200×6000</option>
+            <option value="50×150×6000" selected>50×150×6000</option>
+            <option value="50x100×6000" selected>50x100×6000</option>
+            <option value="50×70×3000" selected>50×70×3000</option>
+            <option value="50x50x6000" selected>50x50x6000</option>
+            <option value="50×50×3000" selected>50×50×3000</option>
+            <option value="45×45x3000" selected>45×45x3000</option>
+            <option value="40×200×6000" selected>40×200×6000</option>
+            <option value="40x150×6000" selected>40x150×6000</option>
+            <option value="40x100×6000" selected>40x100×6000</option>
+            <option value="40×50×3000" selected>40×50×3000</option>
+            <option value="40×40×3000" selected>40×40×3000</option>
+            <option value="30×200×6000" selected>30×200×6000</option>
+            <option value="30x150×6000" selected>30x150×6000</option>
+            <option value="30x100×6000" selected>30x100×6000</option>
+            <option value="25×200×6000" selected>25×200×6000</option>
+            <option value="25×150×6000" selected>25×150×6000</option>
+            <option value="25×100×6000" selected>25×100×6000</option>
+            <option value="20×50x3000" selected>20×50x3000</option>
+            <option value="20×40x3000" selected>20×40x3000</option>
+            <option value="200x200×6000" selected>200x200×6000</option>
+            <option value="200x200×6000" selected>200x200×6000</option>
+            <option value="150x200×6000" selected>150x200×6000</option>
+            <option value="150×150×6000" selected>150×150×6000</option>
+            <option value="100x200×6000" selected>100x200×6000</option>
+            <option value="100x150×6000" selected>100x150×6000</option>
+            <option value="100x100×6000" selected>100x100×6000</option>
+            <option value="4x1525x1525" selected>4x1525x1525</option>
+            <option value="6×1525x1525" selected>6×1525x1525</option>
+            <option value="6,5×1525×1525" selected>6,5×1525×1525</option>
+            <option value="8x1525x1525" selected>8x1525x1525</option>
+            <option value="9x1525×1525" selected>9x1525×1525</option>
+            <option value="10×1525×1525" selected>10×1525×1525</option>
+            <option value="12×1525x1525" selected>12×1525x1525</option>
+            <option value="15×1525×1525" selected>15×1525×1525</option>
+            <option value="18×1525x1525" selected>18×1525x1525</option>
+            <option value="21x1525×1525" selected>21x1525×1525</option>
+            <option value="24x1525x1525" selected>24x1525x1525</option>
+            <option value="9x1250x2500" selected>9x1250x2500</option>
+            <option value="12x1250x2500" selected>12x1250x2500</option>
+            <option value="15x1250×2500" selected>15x1250×2500</option>
+            <option value="18x1250×2500" selected>18x1250×2500</option>
+            <option value="22x1250×2500" selected>22x1250×2500</option>
+            <option value="12,5×96×2000-6000" selected>12,5×96×2000-6000</option>
+            <option value="14×96×2000-6000" selected>14×96×2000-6000</option>
+            <option value="28×90×2000-6000" selected>28×90×2000-6000</option>
+            <option value="28×120×2000-6000" selected>28×120×2000-6000</option>
+            <option value="28×140×2000-6000" selected>28×140×2000-6000</option>
+            <option value="28x190×2000-6000" selected>28x190×2000-6000</option>
+            <option value="35×90×2000-6000" selected>35×90×2000-6000</option>
+            <option value="35×120×2000-6000" selected>35×120×2000-6000</option>
+            <option value="35×140×2000-6000" selected>35×140×2000-6000</option>
+            <option value="35x190×2000-6000" selected>35x190×2000-6000</option>
+            <option value="45×90×2000-6000" selected>45×90×2000-6000</option>
+            <option value="45×120×2000-6000" selected>45×120×2000-6000</option>
+            <option value="45×140×2000-6000" selected>45×140×2000-6000</option>
+            <option value="20×90×6000" selected>20×90×6000</option>
+            <option value="20x140×6000" selected>20x140×6000</option>
+            <option value="20×190×6000" selected>20×190×6000</option>
+            <option value="35×90×6000" selected>35×90×6000</option>
+            <option value="35x140×6000" selected>35x140×6000</option>
+            <option value="35x190×6000" selected>35x190×6000</option>
+            <option value="45×90×6000" selected>45×90×6000</option>
+        </select>
+    </div>
+</div>
+
+    <div class="form_item">
+        <label for="FormMassage" class="form_label">Количество: </label>
+        <textarea id="FormMassage" type="tel" name="massage" class="Form_input _req"></textarea>
+    </div>
+    <div class="form_item">
+        <label for="Formdate" class="form_label">Дата</label>
+        <input type="date" name="date" class="Form_input _req" min="06-04-2023" max="2080-04-20" ></input>
+    </div>
+
+    <div class="form_item">
+        <div class="form_label">Способ оплаты</div>
+        <div class="options">
+            <div class="options_item">
+                <input id="formNalichni" checked type="radio" value="nalichni" name="buy" class="options_input"> 
+                <label for="formNalichni" class="options_label"><span class="zakaz">Наличный</span></label>
+            </div>
+            <div class="options_item">
+                <input id="formBez" type="radio" value="bez" name="buy" class="options_input"> 
+                <label for="formBez" class="options_label"><span class="zakaz">Безналичный</span></label>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="form_button">Заказать</button>
+</form>
+</div>
+    </div>
+
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+        <div class="row">
+           
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget subscribe no-box">
+        <h5 class="widget-title"><img class="logo" src="img/лого.png" href="index.html" width="150px"><span></span></h5>
+        <p>Качественные пиломатериалы наше все</p>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Ссылки<span></span></h5>
+        <ul class="thumbnail-widget">
+        <li>
+        <div class="thumb-content"><a href="#">Каталог</a></div>  
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#">О нас</a></div>  
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#">Где мы?</a></div>  
+        </li>
+        <li>
+        <div class="thumb-content"><a href="#">Заказать</a></div>  
+        </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Поможем выбрать<span></span></h5>
+        <p><form>
+            <input type="text" name="search" placeholder="Имя..">
+          </form></p>
+          <p><form>
+            <input type="text" name="search" placeholder="Почта..">
+          </form></p>
+
+          <a href="#" class="btn-footer">Отправить заявку</a>
+        
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        
+        <div class="widget no-box">
+        <h5 class="widget-title">Контакты<span></span></h5>
+        
+        <p><a href="mailto:info@domain.com" title="glorythemes">les.vvs@mail.ru</a></p>
+        <p><a href="mailto:info@domain.com" title="glorythemes">+7 (912) 076 95 27</a></p>
+        <p><a href="mailto:info@domain.com" title="glorythemes">+7 (912) 076 95 27</a></p>
+        <ul class="social-footer2">
+        <li class=""><a title="youtube" target="_blank" href="/"><img alt="watsapp" width="30" height="30" src="img/ватсап.png"></a></li>
+        <li class=""><a href="/" target="_blank" title="Facebook"><img alt="telegramm" width="30" height="30" src="img/телега.png"></a></li>
+        <li class=""><a href="/" target="_blank" title="Twitter"><img alt="navigator" width="30" height="30" src="img/навигатор.png"></a></li>
+        </ul>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+           
+        <div class="footer-copyright">
+            <div id="map"></div>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12 text-center">
+        <p>Copyright Company Name © 2016. All rights reserved.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>
